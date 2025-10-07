@@ -19,10 +19,10 @@ export default function Navbar() {
           </div> */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand"  to="/">
             NeuroFleetx
 
-          </a>
+          </Link>
           <div className="ms-auto">
             <Link className="btn btn-outline-light " to="/adduser"> Add User</Link>
           </div>
